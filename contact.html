@@ -46,12 +46,7 @@
             color: white;
         }
     </style>
-    <script>
-        function myFunction() {
-          document.getElementById("myForm").submit();
-        }
-        </script>
-</head>
+     </head>
 
 <body>
     <div class="topnav">
@@ -62,12 +57,12 @@
     <center>
         <h1 style="font-family: cursive; text-align: center;"><u>CONTACT INFO</u></h1>
         <p style="font-family: cursive; text-align: center;">send your feedback please..</p>
-        <form id="myForm" action="action_page.php">
+        <form>
         <label for="name">enter your name please :</label>
         <input type="text" id="name" name="name" placeholder="enetr name"><br>
         <label for="feedback">enter your feedback :</label>
         <textarea id="subject" name="feedback" placeholder="type something..." style="height: 57px;"></textarea><br>
-        <input type="button" onclick="myFunction()" value="Submit">
+        <input type="button" onclick="aleart('thanks for your feedback')" value="Submit">
         </form>
         <div class="row">
             <div class="column">
