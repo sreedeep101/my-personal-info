@@ -1,1 +1,1 @@
-https://sreedeep101.github.io/personal-info/
+https://sreedeep101.github.io/my-personal-info/
